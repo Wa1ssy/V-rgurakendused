@@ -27,7 +27,7 @@ public class EventsController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public ActionResult<TextReader> GetEvents(int id)
+    public ActionResult<TextReader> GetEvent(int id)
     {
         var even = _context.Events.Find(id);
 
@@ -40,7 +40,7 @@ public class EventsController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public IActionResult PutEvents(int id, Event even)
+    public IActionResult PutEvent(int id, Event even)
     {
         var dbTest = _context.Events.AsNoTracking().FirstOrDefault(x => x.Id == even.Id);
         if (id != even.Id || dbTest == null)
@@ -55,7 +55,7 @@ public class EventsController : ControllerBase
     }
 
     [HttpPost]
-    public ActionResult<Test> PostEvents(Event even)
+    public ActionResult<Test> PostEvent(Event even)
     {
         var dbExercise = _context.Events.Find(even.Id);
         if (dbExercise == null)
@@ -72,7 +72,7 @@ public class EventsController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public IActionResult DeleteTest(int id)
+    public IActionResult DeleteEvent(int id)
     {
         var even = _context.Events.Find(id);
         if (even == null)

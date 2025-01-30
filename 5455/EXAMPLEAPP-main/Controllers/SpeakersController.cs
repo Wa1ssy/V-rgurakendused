@@ -55,7 +55,7 @@ public class SpeakersController : ControllerBase
     }
 
     [HttpPost]
-    public ActionResult<Speaker> PostTest(Speaker speaker)
+    public ActionResult<Speaker> PostSpeaker(Speaker speaker)
     {
         var dbExercise = _context.Speakers.Find(speaker.Id);
         if (dbExercise == null)
@@ -72,7 +72,7 @@ public class SpeakersController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public IActionResult DeleteTest(int id)
+    public IActionResult DeleteSpeaker(int id)
     {
         var speaker = _context.Speakers.Find(id);
         if (speaker == null)

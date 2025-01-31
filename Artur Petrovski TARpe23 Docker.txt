@@ -1,0 +1,32 @@
+Artur Petrovski TARpe23 Docker
+Ülesanne 1 REST, SOAP ja GraphQL võrdlus
+
+Arhitektuur ja lihtsus
+REST põhineb HTTP standardil (GET, POST, PUT, DELETE) ja järgib lihtsat arhitektuuri, kus iga päring on stateless.
+SOAP kasutab XML-põhist sõnumivahetust ja nõuab keerulisemat protokolli, mis sisaldab täiendavaid turvamehhanisme.
+GraphQL võimaldab klientidel määrata täpselt, milliseid andmeid nad vajavad, muutes andmepäringud efektiivsemaks.
+
+Andmevorming ja struktuur
+REST toetab JSON-i, XML-i ja teisi formaate.
+SOAP kasutab ainult XML-i ja nõuab WSDL-i (Web Services Description Language) teenuste kirjeldamiseks.
+GraphQL kasutab ainult JSON-põhist struktuuri, mis on skeemipõhine ja hästi struktureeritud.
+
+Riiklus (Statefulness vs Statelessness)
+REST on stateless, mis tähendab, et iga päring on sõltumatu ja server ei salvesta klientide seisu.
+SOAP toetab stateful ja stateless seansse, kuid on rohkem suunatud keerukatele süsteemidele.
+GraphQL võib olla stateful, sõltuvalt rakenduse loogikast.
+
+Tõhusus ja andmete pärimine
+REST nõuab mitut päringut, et saada seotud ressursse, näiteks kui vaja laadida kasutaja andmed ja tema postitused.
+SOAP saadab alati täieliku XML-põhise sõnumi, mis võib olla mahukas ja aeglasem.
+GraphQL võimaldab ühe päringuga saada kõik vajalikud andmed, vähendades üleliigseid päringuid ja parandades efektiivsust.
+
+Turvalisus ja standardid
+SOAP sisaldab WS-Security standardit, mis teeb selle sobivaks finants- ja ärirakendustele.
+REST toetab HTTPS-i ja OAuth-i, kuid see ei ole nii range kui SOAP.
+GraphQL vajab lisaturvalisust, kuna päringud võivad olla keerukad ja potentsiaalselt ressursimahukad.
+
+Kasutusvaldkonnad
+REST on kõige laialdasemalt kasutatav API arhitektuur tänu oma lihtsusele ja paindlikkusele.
+SOAP on endiselt populaarne panganduses ja ärirakendustes, kus on vaja ranget turvalisust.
+GraphQL on muutumas populaarseks modernsetes veebirakendustes ja mobiiliäappides, kuna see optimeerib andmepäringuid ja vähendab üleliigset andmeedastust.

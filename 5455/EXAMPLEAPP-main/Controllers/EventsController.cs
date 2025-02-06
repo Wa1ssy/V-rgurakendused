@@ -1,88 +1,108 @@
-using ITB2203Application.Model;
+﻿using ITB2203Application.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 
-namespace ITB2203Application.Controllers;
 
-[ApiController]
-[Route("api/[controller]")]
-public class EventsController : ControllerBase
+namespace ITB2203Application.Controllers
 {
-    private readonly DataContext _context;
-
-    public EventsController(DataContext context)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class EventsController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly DataContext _context;
 
-    [HttpGet]
-    public ActionResult<IEnumerable<Event>> GetEvents(string? name = null)
-    {
-        var query = _context.Events.AsQueryable();
-
-        if (name != null)
-            query = query.Where(x => x.Name != null && x.Name.ToUpper().Contains(name.ToUpper()));
-
-        return query.ToList();
-    }
-
-    [HttpGet("{id}")]
-    public ActionResult<TextReader> GetEvent(int id)
-    {
-        var even = _context.Events.Find(id);
-
-        if (even == null)
+        public EventsController(DataContext context)
         {
-            return NotFound();
+            _context = context;
         }
 
-        return Ok(even);
-    }
-
-    [HttpPut("{id}")]
-    public IActionResult PutEvent(int id, Event even)
-    {
-        var dbTest = _context.Events.AsNoTracking().FirstOrDefault(x => x.Id == even.Id);
-        if (id != even.Id || dbTest == null)
+        [HttpGet]
+        public ActionResult<IEnumerable<Event>> GetEvents(string? name = null)
         {
-            return NotFound();
+            var query = _context.Events!.AsQueryable();
+
+            if (name != null)
+                query = query.Where(x => x.Name != null && x.Name.ToUpper().Contains(name.ToUpper()));
+
+            return Ok(query);
         }
 
-        _context.Update(even);
-        _context.SaveChanges();
-
-        return NoContent();
-    }
-
-    [HttpPost]
-    public ActionResult<Test> PostEvent(Event even)
-    {
-        var dbExercise = _context.Events.Find(even.Id);
-        if (dbExercise == null)
+        [HttpGet("{id}")]
+        public ActionResult<Event> GetEvent(int id)
         {
-            _context.Add(even);
+            var eventItem = _context.Events!.Find(id);
+
+            if (eventItem == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(eventItem);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult PutEvent(int id, Event eventItem)
+        {
+            if (id != eventItem.Id)
+            {
+                return BadRequest();
+            }
+
+            if (!_context.Speakers!.Any(s => s.Id == eventItem.SpeakerId))
+            {
+                return NotFound("Speaker not found");
+            }
+
+            if (!IsValidEmail(eventItem.SpeakerId))
+            {
+                return BadRequest("Speaker email is invalid");
+            }
+
+            _context.Entry(eventItem).State = EntityState.Modified;
             _context.SaveChanges();
 
-            return CreatedAtAction(nameof(GetEvents), new { Id = even.Id }, even);
+            return NoContent();
         }
-        else
+
+        [HttpPost]
+        public ActionResult<Event> PostEvent(Event eventItem)
         {
-            return Conflict();
-        }
-    }
+            if (!_context.Speakers!.Any(s => s.Id == eventItem.SpeakerId))
+            {
+                return NotFound("Speaker not found");
+            }
 
-    [HttpDelete("{id}")]
-    public IActionResult DeleteEvent(int id)
-    {
-        var even = _context.Events.Find(id);
-        if (even == null)
+            if (!IsValidEmail(eventItem.SpeakerId))
+            {
+                return BadRequest("Speaker email is invalid");
+            }
+
+            _context.Events!.Add(eventItem);
+            _context.SaveChanges();
+
+            return CreatedAtAction(nameof(GetEvent), new { id = eventItem.Id }, eventItem);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteEvent(int id)
         {
-            return NotFound();
+            var eventItem = _context.Events!.Find(id);
+            if (eventItem == null)
+            {
+                return NotFound();
+            }
+
+            _context.Events.Remove(eventItem);
+            _context.SaveChanges();
+
+            return NoContent();
         }
 
-        _context.Remove(even);
-        _context.SaveChanges();
-
-        return NoContent();
+        private bool IsValidEmail(int speakerId)
+        {
+            var speaker = _context.Speakers!.Find(speakerId);
+            return speaker != null && speaker.Email.Contains("@");
+        }
     }
 }

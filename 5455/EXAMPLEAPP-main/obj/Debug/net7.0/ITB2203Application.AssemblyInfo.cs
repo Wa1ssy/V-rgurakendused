@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITB2203Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caa855856009e9e2b87317d75ae248862b572ead")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITB2203Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITB2203Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

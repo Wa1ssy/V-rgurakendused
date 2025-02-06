@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|c:\\users\\opilane\\source\\repos\\v-rgurakendused\\5455\\exampleapp-main\\controllers\\attendeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|solutionrelative:controllers\\attendeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|c:\\users\\opilane\\source\\repos\\v-rgurakendused\\5455\\exampleapp-main\\model\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|solutionrelative:model\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|c:\\users\\opilane\\source\\repos\\v-rgurakendused\\5455\\exampleapp-main\\controllers\\speakerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|solutionrelative:controllers\\speakerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|c:\\users\\opilane\\source\\repos\\v-rgurakendused\\5455\\exampleapp-main\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|c:\\users\\opilane\\source\\repos\\v-rgurakendused\\5455\\exampleapp-main\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|c:\\users\\opilane\\source\\repos\\v-rgurakendused\\5455\\exampleapp-main\\model\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|solutionrelative:model\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|c:\\users\\opilane\\source\\repos\\v-rgurakendused\\5455\\exampleapp-main\\model\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|solutionrelative:model\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|c:\\users\\opilane\\source\\repos\\v-rgurakendused\\5455\\exampleapp-main\\model\\speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|solutionrelative:model\\speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|c:\\users\\opilane\\source\\repos\\v-rgurakendused\\5455\\exampleapp-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FF860C-AD0E-482F-8DA3-36F08371901C}|ITB2203Application.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-02-06T11:51:05.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Model\\Test.cs",
+              "RelativeDocumentMoniker": "Model\\Test.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Model\\Test.cs",
+              "RelativeToolTip": "Model\\Test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:50:07.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Speaker.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Model\\Speaker.cs",
+              "RelativeDocumentMoniker": "Model\\Speaker.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Model\\Speaker.cs",
+              "RelativeToolTip": "Model\\Speaker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:29:38.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Model\\Event.cs",
+              "RelativeDocumentMoniker": "Model\\Event.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Model\\Event.cs",
+              "RelativeToolTip": "Model\\Event.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:29:31.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:29:18.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Attendee.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Model\\Attendee.cs",
+              "RelativeDocumentMoniker": "Model\\Attendee.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Model\\Attendee.cs",
+              "RelativeToolTip": "Model\\Attendee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:28:29.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AttendeesController.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Controllers\\AttendeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendeesController.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Controllers\\AttendeesController.cs",
+              "RelativeToolTip": "Controllers\\AttendeesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:27:20.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-06T11:51:09.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpeakersController.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Controllers\\SpeakersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SpeakersController.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\Controllers\\SpeakersController.cs",
+              "RelativeToolTip": "Controllers\\SpeakersController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:41:08.478Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 594,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a8466fe-5a05-4f81-ad45-7d7c1316817e}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

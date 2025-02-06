@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\5455\\EXAMPLEAPP-main\\ITB2203Application.csproj": {}
+    "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\ITB2203Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\5455\\EXAMPLEAPP-main\\ITB2203Application.csproj": {
+    "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\ITB2203Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\5455\\EXAMPLEAPP-main\\ITB2203Application.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\ITB2203Application.csproj",
         "projectName": "ITB2203Application",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\5455\\EXAMPLEAPP-main\\ITB2203Application.csproj",
+        "projectPath": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\ITB2203Application.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\5455\\EXAMPLEAPP-main\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\source\\repos\\V-rgurakendused\\5455\\EXAMPLEAPP-main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -81,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
